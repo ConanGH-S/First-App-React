@@ -1,0 +1,25 @@
+.card-container {
+    background: var(--gray);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    text-align: center;
+    width: 40%;
+}
+p {
+    font-size: 15px;
+    text-align: justify;
+}
+button {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    font-size: 17px;
+    margin-inline: auto;
+    outline: none;
+    padding: 2px 9px;
+    width: fit-content;
+}
